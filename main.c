@@ -89,7 +89,7 @@ void results()
 
         {
             int total_number = strlen(n);
-            int counting[5] = {0};
+            int counting[10] = {0};
             for (int i = 0; i < total_number; i++)
             {
                 counting[n[i] - '0']++;
